@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>FAQ Accordion Card | Frontend Mentor</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+  <main class="section">
+    <div class="container">
+      <div class="section__img"></div>
+      <div class="section__content">
+        <h1 class="section__title heading heading--primary">FAQ</h1>
+        <div class="faqs">
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+          <div class="faq">
+            <div class="faq__title">
+              <h2 class="heading heading--secondary">How many team members can I invite?</h2>
+              <i><img src="/images/icon-arrow-down.svg" alt="#"></i>
+            </div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+            <p class="faq__desc paragraph">You can invite up to 2 additional users on the Free plan. There is no limit
+              on
+              team members for the Premium plan.
+            </p>
+          </div>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          <div class="faq">
+            <div class="faq__title">
+              <h2 class="heading heading--secondary">What is the maximum file upload size?</h2>
+              <i><img src="/images/icon-arrow-down.svg" alt="#"></i>
+            </div>
+            <p class="faq__desc paragraph">No more than 2GB. All files in your account must fit your allotted storage
+              space.
+            </p>
+          </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+          <div class="faq">
+            <div class="faq__title">
+              <h2 class="heading heading--secondary">How do I reset my password?</h2>
+              <i><img src="/images/icon-arrow-down.svg" alt="#"></i>
+            </div>
+            <p class="faq__desc paragraph">Click “Forgot password” from the login page or “Change password” from your
+              profile page.
+              A reset link will be emailed to you.
+            </p>
+          </div>
+
+          <div class="faq">
+            <div class="faq__title">
+              <h2 class="heading heading--secondary">Can I cancel my subscription?</h2>
+              <i><img src="/images/icon-arrow-down.svg" alt="#"></i>
+            </div>
+            <p class="faq__desc paragraph">Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </div>
+
+          <div class="faq">
+            <div class="faq__title">
+              <h2 class="heading heading--secondary">Do you provide additional support?</h2>
+              <i><img src="/images/icon-arrow-down.svg" alt="#"></i>
+            </div>
+            <p class="faq__desc paragraph">Chat and email support is available 24/7. Phone lines are open during normal
+              business hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
 </body>
+
 </html>

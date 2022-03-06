@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#b068e9), to(#6463e7));
+  background-image: linear-gradient(#b068e9, #6463e7);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.heading--primary {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1e35;
+}
+
+.heading--secondary {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4a4b5e;
+}
+
+.heading--active {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1d1e35 !important;
+}
+
+.paragraph {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #787887;
+}
+
+.container {
+  border-radius: 25px;
+  width: 920px;
+  height: 509px;
+  margin: 0px auto;
+  background-color: #fff;
+  padding: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("/images/bg-desktop-exported.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+          box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+}
+
+.section__title {
+  margin-bottom: 25px;
+}
+
+.section__img {
+  width: 50%;
+}
+
+.section__img::before {
+  content: url(/images/illustration-box-desktop.svg);
+  position: relative;
+  left: -165px;
+  bottom: -30px;
+}
+
+.section__content {
+  width: 50%;
+}
+
+.faqs .faq {
+  border-bottom: 1px solid #e7e7e9;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+
+.faqs .faq__title {
+  width: 100%;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.faqs .faq__title > h2:hover {
+  color: #f47c57;
+}
+
+.faqs .faq__desc {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
