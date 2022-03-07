@@ -57,11 +57,11 @@ main {
     color: $veryDarkGrayishBlue;
   }
 
-  &--active {
-    font-size: 14px;
-    font-weight: 700;
-    color: $veryDarkDesaturatedBlue !important;
-  }
+  // &--active {
+  //   font-size: 14px;
+  //   font-weight: 700;
+  //   color: $veryDarkDesaturatedBlue !important;
+  // }
 }
 
 .paragraph {
@@ -131,4 +131,13 @@ main {
       display: none;
     }
   }
+}
+
+.show .faq__desc {
+  display: block;
+}
+
+.show .faq__title h2 {
+  color: $veryDarkDesaturatedBlue !important;
+  font-weight: 700;
 }

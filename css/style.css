@@ -40,12 +40,6 @@ main {
   color: #4a4b5e;
 }
 
-.heading--active {
-  font-size: 14px;
-  font-weight: 700;
-  color: #1d1e35 !important;
-}
-
 .paragraph {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
@@ -122,5 +116,14 @@ main {
 
 .faqs .faq__desc {
   display: none;
+}
+
+.show .faq__desc {
+  display: block;
+}
+
+.show .faq__title h2 {
+  color: #1d1e35 !important;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
